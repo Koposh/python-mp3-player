@@ -5,10 +5,13 @@ Hello guys, I am a beginner programmer and student of python3 and I create a ver
 This is a basic program in python 3 that can be your mp3 player, running in an open terminal, consuming little RAM, which can be a great option for old computers.
 
 
+--------------------------------------------------------------------------------------------------------------------------------
 
 Installing the dependencies:
 
+sudo apt-get install python3
 sudo pip3 install playsound
+
 
 
 
