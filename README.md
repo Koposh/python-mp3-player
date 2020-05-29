@@ -11,6 +11,10 @@ sudo apt-get install python3
 
 sudo pip3 install playsound
 
+# Running the program
+
+python3 playmusic.py
+
 
 
 
