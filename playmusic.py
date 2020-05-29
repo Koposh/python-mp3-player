@@ -1,20 +1,23 @@
-# Importa da biblioteca do playsound o playsound.
+# Plays the playsound from the playsound library.
+
 from playsound import playsound
 
 
-# define uma função com o nome "musica" que será substituida pela  e retorna executa a música com o "playsound(musica)"
+# defines a function with the name "music" that will be replaced by and returns plays the song with "playsound (music)"
 def musica(musica):
     return playsound(musica)
 
 
-# Manda o usuário especificar o caminho da música, e converte em string.
+# The user specifies the song path and converts the string.
+
 esc = str(input("Digite o caminho da musica a ser tocada: "))
 
-# Se o programa funcionar irá pegar a música do usuario definida como "esc" e passar pela função "musica"
+# If the program works, it will take the user's music set to "esc" and go through the "music" function
+
 try:
     musica(esc)
 
-# Se o programa não encontrar o caminho da música especificado, ou der algum erro no programa.
+# If the program does not find the specified music path, or if there is an error in the program.
 
 except Exception:
     print("Música não encontrada, por favor tente novamente.")
